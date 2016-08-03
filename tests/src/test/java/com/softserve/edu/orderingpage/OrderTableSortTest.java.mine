@@ -1,0 +1,283 @@
+package com.softserve.edu.orderingpage;
+
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+import java.util.ListIterator;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.softserve.edu.RunnerPage;
+import com.softserve.edu.data.UrlRepository;
+import com.softserve.edu.data.UserRepository;
+import com.softserve.edu.uipages.LoginPage;
+import com.softserve.edu.uipages.OrderingPage;
+
+public class OrderTableSortTest {
+	/**
+	 * This list is used to get all string values of a table column
+	 */
+	private List<String> strings;
+
+	@BeforeClass
+	public static void setUp() {
+		RunnerPage.load(UrlRepository.getLocalUrl());
+	}
+
+	@AfterClass
+	public static void tearDown() throws Exception {
+		RunnerPage.stop();
+	}
+
+	@Test
+	public void checkOrderTableSorting() {
+		// Go to ordering page of OMS application
+		OrderingPage orderingPage = new LoginPage().successCustomerLogin(
+				UserRepository.getCustomerUser()).goToOrderingPage();
+
+		/*
+		 * Check sorting by Order Name value
+		 */
+
+		/*
+		 * First click on OrderName column head sorts orders in descending order
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ORDER_NAME_COLUMN);
+
+		/*
+		 * Grab all OrderNames values and verify that they sorted in descending
+		 * order
+		 */
+		strings = orderingPage.getAllOrderNames();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on OrderName column head sorts orders in ascending order
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ORDER_NAME_COLUMN);
+		/*
+		 * Grab all OrderNames values and verify that they sorted in ascending
+		 * order
+		 */
+		strings = orderingPage.getAllOrderNames();
+		verifySortedAscending(strings);
+
+		/*
+		 * Check sorting by TotalPrice value
+		 */
+
+		/*
+		 * First click on TotalPrice column head sorts orders in descending
+		 * order
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.TOTAL_PRICE_COLUMN);
+
+		/*
+		 * Grab all TotalPrice values and verify that they sorted in descending
+		 * order
+		 */
+		strings = orderingPage.getAllTotalPrices();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on TotalPrice column head sorts orders in ascending
+		 * order
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.TOTAL_PRICE_COLUMN);
+		/*
+		 * Grab all TotalPrices values and verify that they sorted in ascending
+		 * order
+		 */
+		strings = orderingPage.getAllTotalPrices();
+		verifySortedAscending(strings);
+
+		/*
+		 * Check sorting by Max Discount value
+		 */
+
+		/*
+		 * First click on Max Discount column head sorts orders in the
+		 * descending order by Max Discount value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.MAX_DISCOUNT_COLUMN);
+
+		/*
+		 * Grab all Max Discount values and verify that they are sorted in the
+		 * descending order
+		 */
+		strings = orderingPage.getAllMaxDiscounts();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on Max Discount column head sorts orders in the
+		 * ascending order by Max Discount value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.MAX_DISCOUNT_COLUMN);
+		/*
+		 * Grab all Max Discount values and verify that they are sorted in the
+		 * ascending order
+		 */
+		strings = orderingPage.getAllMaxDiscounts();
+		verifySortedAscending(strings);
+
+		
+		/*
+		 * Check sorting by Delivery Date value
+		 */
+
+		/*
+		 * First click on Delivery Date column head sorts orders in the
+		 * descending order by Delivery Date value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.DELIVERY_DATE_COLUMN);
+
+		/*
+		 * Grab all Delivery Date values and verify that they are sorted in the
+		 * descending order
+		 */
+		strings = orderingPage.getAllDeliveryDates();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on Delivery Date column head sorts orders in the
+		 * ascending order by Delivery Date value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.DELIVERY_DATE_COLUMN);
+		/*
+		 * Grab all Delivery Date values and verify that they are sorted in the
+		 * ascending order
+		 */
+		strings = orderingPage.getAllDeliveryDates();
+		verifySortedAscending(strings);
+		
+		/*
+		 * Check sorting by Status value
+		 */
+
+		/*
+		 * First click on Status column head sorts orders in the
+		 * descending order by Status value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.STATUS_COLUMN);
+
+		/*
+		 * Grab all Status values and verify that they are sorted in the
+		 * descending order
+		 */
+		strings = orderingPage.getAllStatuses();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on Status column head sorts orders in the
+		 * ascending order by Status value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.STATUS_COLUMN);
+		/*
+		 * Grab all Status values and verify that they are sorted in the
+		 * ascending order
+		 */
+		strings = orderingPage.getAllStatuses();
+		//verifySortedAscending(strings);
+		
+		/*
+		 * Check sorting by Assignee value
+		 */
+
+		/*
+		 * First click on Assignee column head sorts orders in the
+		 * descending order by Assignee value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ASSIGNEE_COLUMN);
+
+		/*
+		 * Grab all Assignee values and verify that they are sorted in the
+		 * descending order
+		 */
+		strings = orderingPage.getAllAssignees();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on Assignee column head sorts orders in the
+		 * ascending order by Assignee value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ASSIGNEE_COLUMN);
+		/*
+		 * Grab all Assignee values and verify that they are sorted in the
+		 * ascending order
+		 */
+		strings = orderingPage.getAllAssignees();
+		verifySortedAscending(strings);
+
+		/*
+		 * Check sorting by Role value
+		 */
+
+		/*
+		 * First click on Role column head sorts orders in the
+		 * descending order by Role value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ROLE_COLUMN);
+
+		/*
+		 * Grab all Role values and verify that they are sorted in the
+		 * descending order
+		 */
+		strings = orderingPage.getAllRoles();
+		verifySortedDescending(strings);
+
+		/*
+		 * Second click on Role column head sorts orders in the
+		 * ascending order by Role value
+		 */
+		orderingPage = orderingPage
+				.clickColumnHead(OrderingPage.ROLE_COLUMN);
+		/*
+		 * Grab all Role values and verify that they are sorted in the
+		 * ascending order
+		 */
+		strings = orderingPage.getAllRoles();
+		verifySortedAscending(strings);
+
+	}
+
+	private void verifySortedDescending(List<String> strList) {
+		for (ListIterator<String> it = strList.listIterator(); it.hasNext(); it
+				.next()) {
+			if (it.hasPrevious()) {
+				int comparator = strList.get(it.previousIndex()).compareTo(
+						strList.get(it.nextIndex()));
+				assertTrue(
+						"This table column isn't sorted in Descending order",
+						comparator >= 0);
+			}
+		}
+	}
+
+	private void verifySortedAscending(List<String> strList) {
+		for (ListIterator<String> it = strList.listIterator(); it.hasNext(); it
+				.next()) {
+			if (it.hasPrevious()) {
+				int comparator = strList.get(it.previousIndex()).compareTo(
+						strList.get(it.nextIndex()));
+				assertTrue("This table column isn't sorted in Ascending order",
+						comparator <= 0);
+			}
+		}
+
+	}
+}

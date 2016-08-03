@@ -1,0 +1,1 @@
+01:24:31,048 ERROR main com.softserve.edu.dao.DatabaseUtils:getInstance:125 - SQLException for DriverManager.getConnection(): [Ljava.lang.StackTraceElement;@ba4d54

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/omsmultilayertest.iml" filepath="$PROJECT_DIR$/omsmultilayertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pages/pages.iml" filepath="$PROJECT_DIR$/pages/pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supports/supports.iml" filepath="$PROJECT_DIR$/supports/supports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
+    </modules>
+  </component>
+</project>

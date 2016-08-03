@@ -1,0 +1,783 @@
+INFO : SUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'login2', PASSWORD : 'qwerty', ROLE : 'Merchandiser'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : SUCCESSFULL Logining with LOGIN : 'login1', PASSWORD : 'qwerty', ROLE : 'Customer'
+INFO : SUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'login2', PASSWORD : 'qwerty', ROLE : 'Merchandiser'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : SUCCESSFULL Logining with LOGIN : 'login1', PASSWORD : 'qwerty', ROLE : 'Customer'
+INFO : SUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'login2', PASSWORD : 'qwerty', ROLE : 'Merchandiser'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : SUCCESSFULL Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : Summary result : false
+INFO : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : Check Unknown User Login Testing
+INFO : Summary result : false
+INFO : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+INFO : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : Check Unknown User Login Testing
+INFO : Summary result : true
+INFO : 
+ERROR : Summary result : true
+ERROR : 
+INFO : Check Unknown User Login Testing
+INFO : Summary result : true
+INFO : 
+INFO : Check Unknown User Login Testing
+INFO : Summary result : true
+INFO : Test success ! 
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+New test suite :
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Check Unknown User Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Check Unknown User Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+----
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : 
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Check Unknown User Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+----
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Check Unknown User Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : ----
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : ----------------
+Check User Without Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : ----------------
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : ----------------
+Check User Without Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : ----------------
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : ----------------
+Check User Without Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : ----------------
+Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+ENF OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login Testing
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login Testing
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login
+INFO : UNSUCCESSFULL Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : UNSUCCESSFULL Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : UNSUCCESSFULL Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Password is incorrect - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Incorrect User Password
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Password is incorrect - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : Logining with LOGIN : 'login1', PASSWORD : 'qwerty', ROLE : 'Customer'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Incorrect User Password
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Password is incorrect - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check Customer logining
+INFO : Logining with LOGIN : 'login1', PASSWORD : 'qwerty', ROLE : 'Customer'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Incorrect User Password
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Password is incorrect - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Administrator logining
+INFO : Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------
+INFO : 
+-------------------------------
+NEW TEST SUITE :
+------------------------------
+INFO : NEW TEST CASE : Check Customer logining
+INFO : Logining with LOGIN : 'login1', PASSWORD : 'qwerty', ROLE : 'Customer'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : NEW TEST CASE : Check Incorrect User Login
+INFO : Logining with LOGIN : 'unknown', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Supervisor logining
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : NEW TEST CASE : Check Incorrect User Password
+INFO : Logining with LOGIN : 'login3', PASSWORD : 'unknown', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Password is incorrect - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check User Without Login
+INFO : Logining with LOGIN : '', PASSWORD : 'qwerty', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter user name". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Merchandiser logining
+INFO : Logining with LOGIN : 'login2', PASSWORD : 'qwerty', ROLE : 'Merchandiser'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : NEW TEST CASE : Check User Without Password 
+INFO : Logining with LOGIN : 'login3', PASSWORD : '', ROLE : 'Supervisor'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Please enter password". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Unknown User Login
+INFO : Logining with LOGIN : 'unknownName1', PASSWORD : 'ytrewq', ROLE : 'ccc'
+ERROR : Summary result : false
+ERROR : Check failed !
+Values doesn't match. Expected Result:"Such user does not exist in the system - please try again". ActualResult:"Your login attempt was not successful, try again.
+
+Reason: Bad credentials."
+
+INFO : NEW TEST CASE : Check Administrator logining
+INFO : Logining with LOGIN : 'iva', PASSWORD : 'qwerty', ROLE : 'Administrator'
+INFO : Summary result : true
+INFO : Check success ! 
+
+INFO : 
+-------------------------------
+END OF TEST SUITE :
+------------------------------

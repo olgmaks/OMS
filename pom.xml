@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.softserve.edu</groupId>
+	<artifactId>omsmultilayertest</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>omsmultilayertest</name>
+	<modules>
+		<module>tools</module>
+		<module>pages</module>
+		<module>tests</module>
+		<module>supports</module>
+	</modules>
+	<properties>
+		<moduletest.property>This_is_omsmultilayertest.</moduletest.property>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.5.1</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>install</goal>
+						</goals>
+						<configuration>
+							<packaging>pom</packaging>
+							<artifactId>${project.artifactId}</artifactId>
+							<groupId>${project.groupId}</groupId>
+							<version>${project.version}</version>
+							<file>${project.artifactId}-${project.version}.pom</file>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
